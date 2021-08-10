@@ -21,4 +21,4 @@ npm run lint
 ```
 
 ### 源代码
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[项目地址](https://github.com/zjl88/vue-vplayer.git).
