@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### 源代码
 See [Configuration Reference](https://cli.vuejs.org/config/).

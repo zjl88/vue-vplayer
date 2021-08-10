@@ -1,10 +1,11 @@
 {
   "name": "vue-vplayer",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.2",
+  "private": false,
+  "main": "lib/vue-vplayer.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-vplayer --dest lib src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -27,6 +28,12 @@
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
+  "files": [
+    "examples",
+    "packages",
+    "src",
+    "lib"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
